@@ -1,7 +1,7 @@
 @echo off
 net session >nul 2>&1
 if NOT %errorLevel% == 0 (
-    echo You need to launch this bat with admin priveleges
+    echo You need to launch this bat with admin privileges
     pause
     exit /B 1
 )
